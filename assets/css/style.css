@@ -546,7 +546,7 @@ header h5:before{
 
 .list-box li{
     border-radius: 10px;
-    background-color: #FFFFFF;
+    background-color: #2c2e31;
     padding: 15px 20px 15px 58px;
     width: calc(50% - 5px);
     margin-bottom: 10px;
@@ -617,7 +617,7 @@ header h5:before{
 .main-container{
     min-height: 100vh;
     overflow: hidden;
-}   
+}
 
 .article-container{
     background: #2c2e31;
@@ -645,7 +645,7 @@ header h5:before{
 
 .article-container .post-title{
     font-size: 70px;
-    font-weight: 300;
+    font-weight: 900;
     line-height: 90px;
     text-align: center;
     margin: 200px auto 50px;
@@ -708,9 +708,9 @@ header h5:before{
     border-radius: 10px 10px 0 0;
     height: 0;
     overflow: hidden;
-    -webkit-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
-    -moz-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
-    -o-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+    -webkit-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    -moz-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    -o-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
     transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
 }
 
@@ -1069,11 +1069,11 @@ header h5:before{
     color: #333333;
 }
 
-.loop .swiper-slide.loaded:not(.swiper-slide-active) .post-content h1, 
-.loop .swiper-slide.loaded:not(.swiper-slide-active) .post-content h2, 
-.loop .swiper-slide.loaded:not(.swiper-slide-active) .post-content h3, 
-.loop .swiper-slide.loaded:not(.swiper-slide-active) .post-content h4, 
-.loop .swiper-slide.loaded:not(.swiper-slide-active) .post-content h5, 
+.loop .swiper-slide.loaded:not(.swiper-slide-active) .post-content h1,
+.loop .swiper-slide.loaded:not(.swiper-slide-active) .post-content h2,
+.loop .swiper-slide.loaded:not(.swiper-slide-active) .post-content h3,
+.loop .swiper-slide.loaded:not(.swiper-slide-active) .post-content h4,
+.loop .swiper-slide.loaded:not(.swiper-slide-active) .post-content h5,
 .loop .swiper-slide.loaded:not(.swiper-slide-active) .post-content h6{
     color: #333333;
 }
@@ -1308,7 +1308,7 @@ header h5:before{
 }
 
 .author-template .author{
-    margin-bottom: 115px; 
+    margin-bottom: 115px;
     margin-top: 25px;
 }
 
@@ -1391,7 +1391,7 @@ header h5:before{
     background-size: 17px;
 }
 
-.gh-signin .btn:not([disabled]):not(.disabled).active, 
+.gh-signin .btn:not([disabled]):not(.disabled).active,
 .gh-signin .btn:not([disabled]):not(.disabled):active,
 .gh-signin .btn:hover{
     background-image: url('../img/next.svg');
