@@ -12,7 +12,8 @@
     5.  Tags
     6.  Subscribe
     7.  Footer
-    8.  Responsive
+    8.  kg-bookmark
+    9.  Responsive
 
 */
 
@@ -105,8 +106,8 @@ td, th{ padding: 0; }
 
 body{
     font-family: "ff-basic-gothic-pro", "Roboto", sans-serif;
-    background: #EBE9E4;
-    color: #333333;
+    background: #1d1e20;
+    color: #dadadb;
     font-weight: normal;
 }
 
@@ -151,9 +152,8 @@ h6{
 h1, h2, h3, h4, h5, h6{
     font-family: "roboto-mono", "Roboto Mono", sans-serif;
     color: #E83030;
-    margin: 30px 0;
     font-weight: 300;
-    margin-top: 90px;
+    margin: 90px 0 30px;
     line-height: 1.4;
 }
 
@@ -196,7 +196,7 @@ code{
     background-color: #f1f1f1;
     display: inline-block;
     border: 1px solid #f1f1f1;
-    padding: 0px 7px;
+    padding: 0 7px;
     margin: 1px 5px;
     font-size: 14px;
     line-height: 25px;
@@ -296,8 +296,8 @@ header .blog-logo{
 }
 
 header .blog-logo a{
-    color: #333333;
-    font-size: 20px;
+    color: #dadadb;
+    font-size: 36px;
     font-weight: 300;
     line-height: 26px;
     display: inline-block;
@@ -319,7 +319,7 @@ header .blog-logo a img{
 }
 
 header .modal .blog-logo{
-    color: #AAA391;
+    color: #dadadb;
 }
 
 header .btns{
@@ -331,7 +331,7 @@ header .btns{
 }
 
 header .btns a{
-    color: #B9B2A2;
+    color: #dadadb;
     margin: 0 20px;
     position: relative;
 }
@@ -405,7 +405,7 @@ header nav ul{
 }
 
 header nav ul li{
-    border-bottom: 1px solid rgba(185, 178, 162, 0.15);
+    border-bottom: 1px solid #dadadb;
 }
 
 header nav ul li:last-child{
@@ -413,7 +413,7 @@ header nav ul li:last-child{
 }
 
 header nav ul li a{
-    color: #262626;
+    color: #dadadb;
     font-size: 15px;
     font-family: "roboto-mono", "Roboto Mono", sans-serif;
     letter-spacing: 5px;
@@ -435,11 +435,11 @@ header .modal-footer{
 }
 
 header #search-field{
-    border: 1px solid #B9B2A2;
+    border: 1px solid #dadadb;
     border-radius: 0;
     box-shadow: none;
     background: transparent;
-    color: #262626;
+    color: #dadadb;
     font-size: 15px;
     line-height: 20px;
     font-family: "roboto-mono", "Roboto Mono", sans-serif;
@@ -451,7 +451,7 @@ header #search-field:focus{
 
 header h5{
     margin-top: 60px;
-    color: #AAA391;
+    color: #dadadb;
     font-size: 15px;
     line-height: 20px;
     text-transform: uppercase;
@@ -503,7 +503,7 @@ header h5:before{
 .modal h3{
     font-size: 15px;
     letter-spacing: 5px;
-    color: #262626;
+    color: #dadadb;
     line-height: 20px;
     text-align: center;
     text-transform: uppercase;
@@ -562,7 +562,7 @@ header h5:before{
 }
 
 .list-box li a{
-    color: #262626;
+    color: #dadadb;
     font-size: 19px;
     letter-spacing: -1px;
     line-height: 25px;
@@ -600,7 +600,7 @@ header h5:before{
 }
 
 .social li a{
-    color: #AAA391;
+    color: #dadadb;
     margin: 0 5px;
     padding: 5px;
 }
@@ -619,7 +619,7 @@ header h5:before{
 }   
 
 .article-container{
-    background: #fff;
+    background: #2c2e31;
     border-radius: 10px;
     box-shadow: 0 0 41px 0 rgba(200,195,183,0.15);
     padding-bottom: 150px;
@@ -640,7 +640,7 @@ header h5:before{
     z-index: 2;
     padding-bottom: 100px;
     display: block;
-    color: #B9B2A2;
+    color: #dadadb;
 }
 
 .article-container .post-title{
@@ -649,7 +649,7 @@ header h5:before{
     line-height: 90px;
     text-align: center;
     margin: 200px auto 50px;
-    color: #333333;
+    color: #dadadb;
     position: relative;
     display: inline-block;
     font-family: "roboto-mono", "Roboto Mono", sans-serif;
@@ -686,7 +686,7 @@ header h5:before{
     font-size: 12px;
     line-height: 22px;
     letter-spacing: 3px;
-    color: #B9B2A2;
+    color: #dadadb;
     text-transform: uppercase;
     font-family: "roboto-mono", "Roboto Mono", sans-serif;
 }
@@ -791,7 +791,7 @@ header h5:before{
     font-size: 15px;
     font-weight: 300;
     line-height: 20px;
-    color: #AAA391;
+    color: #dadadb;
     font-family: "roboto-mono", "Roboto Mono", sans-serif;
     position: absolute;
     top: 54px;
@@ -840,9 +840,9 @@ header h5:before{
 .article-container .post-content .kg-image-card span{
     max-width: 100%;
     display: inline-block;
-    -webkit-box-shadow: inset 0px 0px 0px 1px transparent;
-    -moz-box-shadow: inset 0px 0px 0px 1px transparent;
-    box-shadow: inset 0px 0px 0px 1px transparent;
+    -webkit-box-shadow: inset 0 0 0 1px transparent;
+    -moz-box-shadow: inset 0 0 0 1px transparent;
+    box-shadow: inset 0 0 0 1px transparent;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -950,7 +950,7 @@ header h5:before{
     width: calc(100% + 206px);
     height: 30px;
     z-index: 2;
-    background: #fff;
+    background: #2c2e31;
     border-radius: 3px 3px 0 0;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1080,9 +1080,9 @@ header h5:before{
 
 .loop .swiper-slide.loaded:not(.swiper-slide-active) .author-image a{
     display: block;
-    -webkit-box-shadow: inset 0px 0px 0px 1px #b4b4b4;
-    -moz-box-shadow: inset 0px 0px 0px 1px #b4b4b4;
-    box-shadow: inset 0px 0px 0px 1px #b4b4b4;
+    -webkit-box-shadow: inset 0 0 0 1px #b4b4b4;
+    -moz-box-shadow: inset 0 0 0 1px #b4b4b4;
+    box-shadow: inset 0 0 0 1px #b4b4b4;
     position: relative;
     background: linear-gradient(to top left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) calc(50% - 0.8px), #b4b4b4 50%, rgba(0,0,0,0) calc(50% + 0.8px), rgba(0,0,0,0) 100%), linear-gradient(to top right, rgba(0,0,0,0) 0%, rgba(0,0,0,0) calc(50% - 0.8px), #b4b4b4 50%, rgba(0,0,0,0) calc(50% + 0.8px), rgba(0,0,0,0) 100%);
 }
@@ -1162,9 +1162,9 @@ header h5:before{
 }
 
 .loop .swiper-slide:not(.swiper-slide-active):not(.first) .article-container .post-content .img-holder span{
-    -webkit-box-shadow: inset 0px 0px 0px 1px #b4b4b4;
-    -moz-box-shadow: inset 0px 0px 0px 1px #b4b4b4;
-    box-shadow: inset 0px 0px 0px 1px #b4b4b4;
+    -webkit-box-shadow: inset 0 0 0 1px #b4b4b4;
+    -moz-box-shadow: inset 0 0 0 1px #b4b4b4;
+    box-shadow: inset 0 0 0 1px #b4b4b4;
     position: relative;
     display: flex;
     align-items: center;
@@ -1180,7 +1180,7 @@ header h5:before{
     font-size: 15px;
     font-weight: 300;
     line-height: 20px;
-    color: #AAA391;
+    color: #dadadb;
     font-family: "roboto-mono", "Roboto Mono", sans-serif;
 }
 
@@ -1191,7 +1191,7 @@ header h5:before{
 }
 
 .share-on a{
-    color: #AAA391;
+    color: #dadadb;
     border: none;
     font-size: 22px;
     line-height: 29px;
@@ -1227,7 +1227,7 @@ header h5:before{
 .author p{
     font-size: 14px;
     line-height: 20px;
-    color: #000;
+    color: #dadadb;
     max-width: 370px;
     margin: 0 auto;
     font-weight: normal;
@@ -1339,7 +1339,7 @@ header h5:before{
 .tags li:after{
     content: ',';
     margin-right: 7px;
-    color: #B9B2A2;
+    color: #dadadb;
     font-size: 15px;
     line-height: 20px;
 }
@@ -1349,7 +1349,7 @@ header h5:before{
 }
 
 .tags li a{
-    color: #B9B2A2;
+    color: #dadadb;
     font-size: 15px;
     line-height: 20px;
     text-transform: uppercase;
@@ -1378,7 +1378,6 @@ header h5:before{
 }
 
 .gh-signin .btn{
-    background: transparent;
     border: none;
     outline: 0;
     position: absolute;
@@ -1388,9 +1387,7 @@ header h5:before{
     width: 64px;
     color: #5FCCC4;
     font-size: 20px;
-    background-image: url('../img/next.svg');
-    background-repeat: no-repeat;
-    background-position: center;
+    background: transparent url('../img/next.svg') no-repeat center;
     background-size: 17px;
 }
 
@@ -1467,7 +1464,93 @@ footer .copyright{
 }
 
 /* ==========================================================================
-   8. Responsive
+   8. kg-bookmark
+   ========================================================================== */
+
+.kg-bookmark-card {
+    width: 100%;
+    position: relative;
+}
+
+.kg-bookmark-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    color: currentColor;
+    font-family: inherit;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.kg-bookmark-container:hover {
+    text-decoration: none;
+}
+
+.kg-bookmark-content {
+    flex-basis: 0;
+    flex-grow: 999;
+    padding: 20px;
+    order: 1;
+}
+
+.kg-bookmark-title {
+    font-weight: 600;
+}
+
+.kg-bookmark-metadata,
+.kg-bookmark-description {
+    margin-top: .5em;
+}
+
+.kg-bookmark-metadata {
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.kg-bookmark-description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.kg-bookmark-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: text-bottom;
+    margin-right: .5em;
+    margin-bottom: .05em;
+}
+
+.kg-bookmark-thumbnail {
+    display: flex;
+    flex-basis: 24rem;
+    flex-grow: 1;
+}
+
+.kg-bookmark-thumbnail img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+    object-fit: cover;
+}
+
+.kg-bookmark-author {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.kg-bookmark-publisher::before {
+    content: "•";
+    margin: 0 .5em;
+}
+
+/* ==========================================================================
+   9. Responsive
    ========================================================================== */
 
 @media (max-width: 1199px) {
