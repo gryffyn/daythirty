@@ -2,7 +2,7 @@
     "name": "daythirty",
     "description": "a fork of Haunted Theme's Zvikov -- now with dark mode!",
     "demo": "https://github.com/gryffyn/daythirty",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "GNU General Public License, Version 2",
     "engines": {
         "ghost": ">=2.0.0",
